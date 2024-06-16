@@ -1,6 +1,6 @@
 # Fitbit_AzureStreaming
 This project showcases an end-to-end Azure streaming data solution designed to gather, process, and analyze fitness data from user Fitbit watches. The architecture leverages various Azure services and technologies to achieve seamless data ingestion, transformation, storage, and visualization.
-![Project Architecture](Project_Images/Capture.PNG)
+- ![Project Architecture](Project_Images/Project_Architecture.png)
 
 ## Key Components and Technologies
 
@@ -15,10 +15,15 @@ This project showcases an end-to-end Azure streaming data solution designed to g
 ### Data Storage and Management
 - Azure SQL Database serves as the primary data repository for structured Fitbit and user data, facilitating efficient querying and data access.
 - Azure Data Lake Storage Gen2 stores raw and transformed data, enabling scalable and cost-effective storage for analytics and archival purposes.
+- Used UnityCatalog
+
+- ![UnityCatalog](Project_Images/UnityCatalog.PNG)
 
 ### Analytics and Visualization
 - Azure AI/BI Dashboard is utilized to build comprehensive Fitbit analysis dashboards, integrating KPIs derived from the processed data.
 - Insights and visualizations from the dashboard provide actionable insights into user fitness patterns, trends, and performance metrics.
+
+- ![FitbitDashboard](Project_Images/FitbitAnalysisDashboard.PNG)
 
 ## Project Goals and Outcomes
 - **End-to-End Solution:** Demonstrates a complete Azure-based streaming data pipeline from data ingestion to visualization, showcasing robust integration across Azure services.
