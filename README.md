@@ -1,6 +1,6 @@
 # Fitbit_AzureStreaming
 This project showcases an end-to-end Azure streaming data solution designed to gather, process, and analyze fitness data from user Fitbit watches. The architecture leverages various Azure services and technologies to achieve seamless data ingestion, transformation, storage, and visualization.
-![Project Architecture](project_image/architecture_diagram.png)
+![Project Architecture](Project_Images/Capture.PNG)
 
 ## Key Components and Technologies
 
